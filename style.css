@@ -1,0 +1,35 @@
+/* Quy tắc chung */
+body {
+    font-family: Arial, sans-serif;
+    color: #000000; /* Bước 6: Giữ nguyên màu chữ toàn bộ trang là màu đen */
+    margin: 0;
+    padding: 0;
+}
+
+/* Bước 2: Thay đổi màu nền chính/header thành màu bậc 4 */
+header, .navbar, .main-bg {
+    background-color: #00BFF2;
+    color: #000000;
+}
+
+/* Bước 3: Thay đổi màu nền phần ON SALE/PREVIEW thành màu bậc 1 hoặc bậc 2 */
+.badge-onsale, .preview-banner, .highlight-btn {
+    background-color: #00ADEE; /* Màu bậc 1 */
+    color: #ffffff; /* Chữ trắng để nổi bật */
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+/* Bước 4: Đổi màu nền phần nội dung thành màu bậc 7 */
+.content-section, .main-content, .card {
+    background-color: #8DD7F7; /* Màu bậc 7 */
+    color: #000000; /* Giữ màu chữ đen vì nền bậc 7 nhạt */
+}
+
+/* Bước 5: Đổi màu nền phần footer thành màu bậc 9 */
+footer, .footer-section {
+    background-color: #C6E9FA; /* Màu bậc 9 */
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
